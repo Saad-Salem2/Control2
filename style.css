@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-family: sans-serif;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+ .box-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2.5px solid white;
+    flex-shrink: 0;
+ }
+ .box-img img{
+    width: 100%;
+ }
+.profil{
+    display: flex;
+    gap:;
+    align-items: center;
+}
+.profil h2{
+    font-size: 20px;
+text-transform: uppercase;
+}
+
+.mune{
+    background-color: rgb(48, 49, 51);
+    width: 40px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+.mune:hover{
+    width: 260px;
+}
+ul{
+list-style:none;
+position: relative;
+height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none
+    ;
+     padding: 10px;
+    margin: 10px 0;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+}
+ul li a:hover, .actv,.data-info .box:hover,td:hover{
+    background-color: #ffffff55;
+}
+.ert{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: aquamarine;
+}
+.ert a{
+    background-color:#a00 ;
+}
+ul li a i{
+     font-size: 30px;
+}
+.content{
+   
+
+    width: 100%;
+    margin: 10px;
+
+}
+.title-info{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.data-info .box{
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 20px;
+}
+.data-info .box i{
+    font-size:40px;
+}
+.data-info .box .data{
+    
+ text-align: center;
+}
+.data-info .box .data span{
+font-size: 30px;
+}
+table{
+    width: 100%;
+border-spacing: 10px;
+    text-align: center;
+}
+td,th{
+    background-color: #123;
+    height: 40px;
+}
+th{
+    background-color: #0080ff;
+}
+.price,.count{
+    padding: 6px;
+    border-radius: 6px;
+}
+.price{
+    background-color: green;
+}
+.count{
+    background-color: gold;
+    color: black;
+}
+
+    
